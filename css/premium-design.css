@@ -233,12 +233,12 @@ p {
 }
 
 .navigation {
-  padding: var(--space-md) 0;
+  padding: var(--space-sm) 0;
   transition: padding 0.3s ease;
 }
 
 .header.scrolled .navigation {
-  padding: var(--space-sm) 0;
+  padding: var(--space-xs) 0;
 }
 
 .nav-container {
@@ -248,24 +248,26 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--space-md);
 }
 
 /* Logo */
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-sm);
+  flex-shrink: 0;
 }
 
 .logo-mark {
   display: flex;
-  gap: 2px;
+  gap: 1px;
 }
 
 .logo-letter {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   background: var(--gradient-primary);
   color: white;
   display: flex;
@@ -273,7 +275,7 @@ p {
   justify-content: center;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border-radius: var(--radius-sm);
   position: relative;
   overflow: hidden;
@@ -297,9 +299,10 @@ p {
 .logo-text .primary-text {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--gray-900);
   display: block;
+  line-height: 1.1;
 }
 
 .logo-text .subtitle {
@@ -312,12 +315,14 @@ p {
 .nav-menu {
   display: flex;
   align-items: center;
+  flex: 1;
+  justify-content: center;
 }
 
 .nav-list {
   display: flex;
   list-style: none;
-  gap: var(--space-xl);
+  gap: var(--space-lg);
   margin: 0;
   padding: 0;
 }
@@ -356,7 +361,8 @@ p {
 .nav-cta {
   display: flex;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-sm);
+  flex-shrink: 0;
 }
 
 .phone-link {
@@ -376,14 +382,16 @@ p {
 .cta-button {
   background: var(--gradient-primary);
   color: white;
-  padding: var(--space-sm) var(--space-lg);
-  border-radius: var(--radius-lg);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-md);
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.9rem;
   display: flex;
   align-items: center;
   gap: var(--space-xs);
   transition: all 0.3s ease;
+  white-space: nowrap;
   box-shadow: var(--shadow-md);
 }
 
