@@ -6961,3 +6961,28 @@ img{
 	background-color:#d5aa6d;
 	color:#ffffff;	
 }
+
+/* LQAA Logo Enhancement - Gold & Visible */
+.main-header .main-box .logo-box .logo img {
+	filter: sepia(1) hue-rotate(30deg) saturate(2) brightness(1.2);
+	background: linear-gradient(135deg, #d4af37, #ffd700);
+	padding: 8px 15px;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(212, 175, 55, 0.3);
+	transform: scale(1.2);
+	transition: all 0.3s ease;
+}
+
+.main-header .main-box .logo-box .logo img:hover {
+	transform: scale(1.25);
+	box-shadow: 0 4px 15px rgba(212, 175, 55, 0.5);
+}
+
+.sticky-header .logo img {
+	filter: sepia(1) hue-rotate(30deg) saturate(2) brightness(1.2);
+	background: linear-gradient(135deg, #d4af37, #ffd700);
+	padding: 6px 12px;
+	border-radius: 6px;
+	box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+	transform: scale(1.1);
+}
