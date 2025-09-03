@@ -3,69 +3,289 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LQAA - Professional Licensing Solutions & Certified Training | Hayes, West London</title>
-    <meta name="description" content="LQAA Ltd provides comprehensive licensing applications, NCFE & Highfield certified training courses, and expert consultancy for businesses across West London. Premises licences, personal licence training, health & safety courses.">
-    <meta name="keywords" content="premises licence, personal licence training, alcohol licensing, health safety training, NCFE, Highfield, licensing consultancy, Hayes, West London, business licensing">
-    <link rel="stylesheet" href="css/professional.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>LQAA - Premium Licensing Solutions & Expert Consultancy | London's Leading Specialists</title>
+    <meta name="description" content="LQAA Ltd: London's premier licensing consultancy delivering world-class solutions. NCFE & Highfield approved training centre with 99% success rate. Expert premises licenses, personal licence training, and comprehensive business licensing services across West London.">
+    <meta name="keywords" content="premium licensing consultancy, premises licence experts, personal licence training, NCFE Highfield training, business licensing London, alcohol licensing specialists, professional consultancy Hayes">
+    
+    <!-- Advanced CSS -->
+    <link rel="stylesheet" href="css/premium-design.css">
+    
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="LQAA - Premium Licensing Solutions & Expert Consultancy">
+    <meta property="og:description" content="London's premier licensing consultancy with 99% success rate. Expert premises licenses, NCFE training, and comprehensive business licensing services.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/og-image.jpg">
 </head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <img src="images/logo.png" alt="LQAA - Licences, Qualifications & Applications">
-                    <span class="logo-text">LQAA</span>
-                </div>
-                <nav class="nav">
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#training">Training</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-                <div class="header-cta">
-                    <a href="tel:02081234690" class="phone-btn">
-                        <i class="fas fa-phone"></i> 0208 1234 690
-                    </a>
-                    <a href="#contact" class="cta-btn">Free Consultation</a>
+<body class="loading">
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <div class="logo-text">LQAA</div>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-container">
+                <!-- Logo -->
+                <div class="nav-logo">
+                    <div class="logo-mark">
+                        <span class="logo-letter">L</span>
+                        <span class="logo-letter">Q</span>
+                        <span class="logo-letter">A</span>
+                        <span class="logo-letter">A</span>
+                    </div>
+                    <div class="logo-text">
+                        <span class="primary-text">LQAA</span>
+                        <span class="subtitle">Premium Consultancy</span>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#expertise" class="nav-link">Expertise</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#training" class="nav-link">Training</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Call to Action -->
+                <div class="nav-cta">
+                    <a href="tel:02081234690" class="phone-link">
+                        <i class="fas fa-phone"></i>
+                        <span>0208 123 4690</span>
+                    </a>
+                    <a href="#contact" class="cta-button">
+                        <span>Free Consultation</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                </button>
+            </div>
+        </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="floating-elements">
+                <div class="float-element" data-speed="0.02"></div>
+                <div class="float-element" data-speed="0.04"></div>
+                <div class="float-element" data-speed="0.03"></div>
+            </div>
+        </div>
+        
+        <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Professional Licensing Solutions for Your Business</h1>
-                    <p class="hero-subtitle">NCFE & Highfield approved training centre providing comprehensive licensing applications and certified training courses across West London</p>
+                    <div class="hero-badge">
+                        <i class="fas fa-award"></i>
+                        <span>London's Leading Licensing Consultancy</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="title-line">Premium Licensing</span>
+                        <span class="title-line highlight">Solutions</span>
+                        <span class="title-line">for Modern Business</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        Trusted by 500+ businesses across London. Our expert consultancy delivers comprehensive licensing solutions with an unmatched 99% success rate. NCFE & Highfield approved training centre providing world-class professional development.
+                    </p>
+                    
                     <div class="hero-stats">
-                        <div class="stat">
-                            <span class="stat-number">99%</span>
-                            <span class="stat-label">Success Rate</span>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="99">0</div>
+                            <div class="stat-label">% Success Rate</div>
                         </div>
-                        <div class="stat">
-                            <span class="stat-number">500+</span>
-                            <span class="stat-label">Licensed Businesses</span>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="500">0</div>
+                            <div class="stat-label">+ Licensed Businesses</div>
                         </div>
-                        <div class="stat">
-                            <span class="stat-number">1000+</span>
-                            <span class="stat-label">Trained Professionals</span>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="1000">0</div>
+                            <div class="stat-label">+ Professionals Trained</div>
                         </div>
                     </div>
+                    
                     <div class="hero-actions">
-                        <a href="#contact" class="btn btn-primary">Get Started Today</a>
-                        <a href="tel:02081234690" class="btn btn-outline">Call Now</a>
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Start Your Application</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#expertise" class="btn btn-outline">
+                            <span>Our Expertise</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <img src="images/hero-professional.jpg" alt="Professional licensing consultation">
+                
+                <div class="hero-visual">
+                    <div class="visual-card main-card">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="card-badge">Premium Service</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Expert Licensing Solutions</h3>
+                            <p>Comprehensive support from application to approval</p>
+                            <div class="progress-indicators">
+                                <div class="progress-item active">
+                                    <div class="progress-dot"></div>
+                                    <span>Consultation</span>
+                                </div>
+                                <div class="progress-item active">
+                                    <div class="progress-dot"></div>
+                                    <span>Application</span>
+                                </div>
+                                <div class="progress-item">
+                                    <div class="progress-dot"></div>
+                                    <span>Approval</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="visual-card accent-card">
+                        <div class="mini-stat">
+                            <div class="mini-number">99%</div>
+                            <div class="mini-label">Success Rate</div>
+                        </div>
+                    </div>
+                    
+                    <div class="visual-card accent-card">
+                        <div class="certification-badge">
+                            <i class="fas fa-shield-check"></i>
+                            <span>NCFE Approved</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="header-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Professional Excellence</span>
+                </div>
+                <h2 class="section-title">Why Industry Leaders Choose LQAA</h2>
+                <p class="section-subtitle">Our commitment to excellence, combined with deep industry expertise, makes us the preferred choice for businesses requiring professional licensing solutions.</p>
+            </div>
+            
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Unmatched Success Rate</h3>
+                    <p>99% application approval rate across all licensing categories, backed by our expert knowledge and meticulous attention to detail.</p>
+                    <div class="expertise-stats">
+                        <div class="mini-stat">
+                            <span class="stat-num">500+</span>
+                            <span class="stat-text">Successful Applications</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="expertise-card featured">
+                    <div class="expertise-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Certified Training Excellence</h3>
+                    <p>NCFE & Highfield approved training centre delivering internationally recognized qualifications with flexible, modern learning approaches.</p>
+                    <div class="certification-badges">
+                        <span class="cert-badge">NCFE Approved</span>
+                        <span class="cert-badge">Highfield Qualified</span>
+                    </div>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Expert Consultancy Team</h3>
+                    <p>Dedicated specialists with decades of combined experience in licensing law, regulatory compliance, and business consultation.</p>
+                    <div class="team-indicator">
+                        <div class="team-avatars">
+                            <div class="avatar"></div>
+                            <div class="avatar"></div>
+                            <div class="avatar"></div>
+                        </div>
+                        <span class="team-text">Expert Team</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="trust-indicators">
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-shield-check"></i>
+                    </div>
+                    <div class="trust-content">
+                        <h4>Fully Regulated</h4>
+                        <p>Licensed and regulated practice</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="trust-content">
+                        <h4>Fast Processing</h4>
+                        <p>Expedited application handling</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="trust-content">
+                        <h4>Personal Service</h4>
+                        <p>Dedicated account management</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <div class="trust-content">
+                        <h4>Transparent Pricing</h4>
+                        <p>No hidden fees or charges</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -73,135 +293,214 @@
 
     <!-- Services Section -->
     <section id="services" class="services">
-        <div class="container">
+        <div class="section-container">
             <div class="section-header">
-                <h2>Complete Licensing & Training Solutions</h2>
-                <p>From application to approval - we handle everything so you can focus on your business</p>
+                <div class="header-badge">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Comprehensive Solutions</span>
+                </div>
+                <h2 class="section-title">Premium Licensing Services</h2>
+                <p class="section-subtitle">From initial consultation to final approval, we provide end-to-end licensing solutions tailored to your business needs.</p>
             </div>
             
             <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <h3>Premises Licences</h3>
-                    <p>Complete premises licence applications for restaurants, bars, cafes, and retail businesses. We handle all paperwork, council liaisons, and regulatory compliance.</p>
-                    <ul class="service-features">
-                        <li>New applications & variations</li>
-                        <li>Council representation</li>
-                        <li>Regulatory compliance</li>
-                        <li>Fast-track processing</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-user-graduate"></i>
-                    </div>
-                    <h3>Personal Licence Training</h3>
-                    <p>NCFE certified personal licence training courses. Essential for anyone selling or authorizing alcohol sales. Flexible delivery options available.</p>
-                    <ul class="service-features">
-                        <li>NCFE certified courses</li>
-                        <li>Flexible scheduling</li>
-                        <li>On-site training available</li>
-                        <li>100% pass guarantee</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-wine-glass-alt"></i>
-                    </div>
-                    <h3>Alcohol Licensing</h3>
-                    <p>Comprehensive alcohol licensing services including premises licences, temporary event notices, and club registration certificates.</p>
-                    <ul class="service-features">
-                        <li>All alcohol licence types</li>
-                        <li>TEN applications</li>
-                        <li>Club registrations</li>
-                        <li>Variation services</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Health & Safety Training</h3>
-                    <p>Highfield approved health and safety courses including food safety, fire safety, risk assessment, and COSHH training for your team.</p>
-                    <ul class="service-features">
-                        <li>Highfield certified</li>
-                        <li>Food safety training</li>
-                        <li>Fire safety courses</li>
-                        <li>COSHH assessments</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-smoking"></i>
-                    </div>
-                    <h3>Special Treatment Licences</h3>
-                    <p>Specialized licensing for shisha lounges, massage parlours, tattoo studios, and other special treatment establishments.</p>
-                    <ul class="service-features">
-                        <li>Shisha lounge licences</li>
-                        <li>Beauty treatment licences</li>
-                        <li>Tattoo parlour licensing</li>
-                        <li>Regulatory guidance</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-gavel"></i>
-                    </div>
-                    <h3>Other Business Licences</h3>
-                    <p>Complete range of business licensing including animal licences, scrap metal dealer licences, and private hire vehicle licensing.</p>
-                    <ul class="service-features">
-                        <li>Animal boarding licences</li>
-                        <li>Scrap metal licences</li>
-                        <li>Private hire licensing</li>
-                        <li>Street trading licences</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>Expert Licensing Consultancy Since 2010</h2>
-                    <p class="lead">LQAA Ltd is West London's leading licensing consultancy, providing comprehensive solutions for businesses requiring any form of licensing or professional training.</p>
-                    
-                    <div class="about-highlights">
-                        <div class="highlight">
-                            <h4>NCFE & Highfield Approved</h4>
-                            <p>Officially approved training centre delivering nationally recognized qualifications</p>
+                <div class="service-card premium">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
                         </div>
-                        <div class="highlight">
-                            <h4>99% Success Rate</h4>
-                            <p>Unmatched track record in securing licence approvals for our clients</p>
-                        </div>
-                        <div class="highlight">
-                            <h4>Expert Team</h4>
-                            <p>Qualified consultants, solicitors, and trainers with decades of combined experience</p>
+                        <div class="service-badge">Most Popular</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Premises Licences</h3>
+                        <p>Comprehensive premises licence applications for restaurants, bars, cafes, and retail establishments. Complete end-to-end service including council representation.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>New applications & variations</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Council liaison & representation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Regulatory compliance guidance</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Fast-track processing available</span>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="certifications">
-                        <h4>Our Accreditations</h4>
-                        <div class="cert-logos">
-                            <span class="cert">NCFE Approved</span>
-                            <span class="cert">Highfield Qualified</span>
-                            <span class="cert">Licensing Specialists</span>
-                        </div>
+                    <div class="service-action">
+                        <a href="#contact" class="service-btn">Get Started</a>
                     </div>
                 </div>
-                
-                <div class="about-image">
-                    <img src="images/professional-team.jpg" alt="LQAA professional team">
+
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Personal Licence Training</h3>
+                        <p>NCFE certified personal licence courses essential for alcohol sales authorization. Flexible delivery with 100% pass guarantee.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>NCFE certified curriculum</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Flexible scheduling options</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>On-site training available</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>100% pass guarantee</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-action">
+                        <a href="#contact" class="service-btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-wine-glass"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Alcohol Licensing</h3>
+                        <p>Complete alcohol licensing solutions including temporary event notices, club registrations, and specialized licensing requirements.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>All alcohol licence categories</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Temporary event notices (TENs)</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Club registration certificates</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Variation & transfer services</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-action">
+                        <a href="#contact" class="service-btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Health & Safety Training</h3>
+                        <p>Highfield approved health and safety courses including food safety, fire safety, and risk assessment training for your team.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Highfield certified courses</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Food safety & hygiene training</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Fire safety & COSHH training</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Risk assessment guidance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-action">
+                        <a href="#contact" class="service-btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Special Treatment Licences</h3>
+                        <p>Specialized licensing for shisha lounges, massage parlours, tattoo studios, and other special treatment establishments.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Shisha lounge licensing</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Beauty treatment licensing</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Tattoo parlour compliance</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Regulatory guidance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-action">
+                        <a href="#contact" class="service-btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Specialist Business Licences</h3>
+                        <p>Complete range of specialized business licensing including animal licences, scrap metal, private hire vehicles, and street trading.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Animal boarding & breeding licences</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Scrap metal dealer licences</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Private hire vehicle licensing</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Street trading permits</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-action">
+                        <a href="#contact" class="service-btn">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -209,69 +508,261 @@
 
     <!-- Training Section -->
     <section id="training" class="training">
-        <div class="container">
+        <div class="section-container">
             <div class="section-header">
-                <h2>Professional Training Courses</h2>
-                <p>NCFE & Highfield certified courses with flexible delivery options</p>
+                <div class="header-badge">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Professional Development</span>
+                </div>
+                <h2 class="section-title">Certified Training Programs</h2>
+                <p class="section-subtitle">Invest in your team's professional development with our comprehensive range of certified training courses.</p>
             </div>
-
-            <div class="training-grid">
-                <div class="training-card">
-                    <h3>Personal Licence Course</h3>
-                    <div class="course-details">
-                        <span class="duration">1 Day Course</span>
-                        <span class="cert">NCFE Certified</span>
+            
+            <div class="training-showcase">
+                <div class="training-cards">
+                    <div class="training-card featured">
+                        <div class="training-header">
+                            <div class="training-badge">Most Popular</div>
+                            <h3>Personal Licence Training</h3>
+                        </div>
+                        <div class="training-details">
+                            <div class="training-meta">
+                                <span class="duration">
+                                    <i class="fas fa-clock"></i>
+                                    1 Day Course
+                                </span>
+                                <span class="certification">
+                                    <i class="fas fa-certificate"></i>
+                                    NCFE Certified
+                                </span>
+                            </div>
+                            <p>Essential qualification for selling or authorizing the sale of alcohol. Comprehensive curriculum covering licensing law, social responsibility, and practical applications.</p>
+                            <div class="training-features">
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>Examination included</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>Same-day certification</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>Flexible scheduling</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="training-pricing">
+                            <div class="price">£150 <span>per person</span></div>
+                            <a href="#contact" class="training-btn">Book Training</a>
+                        </div>
                     </div>
-                    <p>Essential qualification for selling or authorizing alcohol sales. Includes examination and certification.</p>
-                    <div class="course-price">£150 per person</div>
-                    <a href="#contact" class="btn btn-secondary">Book Now</a>
+
+                    <div class="training-card">
+                        <div class="training-header">
+                            <h3>Food Safety Training</h3>
+                        </div>
+                        <div class="training-details">
+                            <div class="training-meta">
+                                <span class="duration">
+                                    <i class="fas fa-clock"></i>
+                                    Half Day
+                                </span>
+                                <span class="certification">
+                                    <i class="fas fa-certificate"></i>
+                                    Highfield Certified
+                                </span>
+                            </div>
+                            <p>Level 2 Food Safety & Hygiene training essential for all food handling staff. Covers HACCP principles and legal requirements.</p>
+                        </div>
+                        <div class="training-pricing">
+                            <div class="price">£75 <span>per person</span></div>
+                            <a href="#contact" class="training-btn">Book Training</a>
+                        </div>
+                    </div>
+
+                    <div class="training-card">
+                        <div class="training-header">
+                            <h3>Health & Safety Course</h3>
+                        </div>
+                        <div class="training-details">
+                            <div class="training-meta">
+                                <span class="duration">
+                                    <i class="fas fa-clock"></i>
+                                    1 Day Course
+                                </span>
+                                <span class="certification">
+                                    <i class="fas fa-certificate"></i>
+                                    Highfield Certified
+                                </span>
+                            </div>
+                            <p>Comprehensive workplace health and safety training including risk assessments, COSHH, and emergency procedures.</p>
+                        </div>
+                        <div class="training-pricing">
+                            <div class="price">£125 <span>per person</span></div>
+                            <a href="#contact" class="training-btn">Book Training</a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="training-card">
-                    <h3>Food Safety Training</h3>
-                    <div class="course-details">
-                        <span class="duration">Half Day</span>
-                        <span class="cert">Highfield Certified</span>
+                <div class="training-options">
+                    <h3>Flexible Learning Options</h3>
+                    <div class="options-grid">
+                        <div class="option-card">
+                            <div class="option-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div class="option-content">
+                                <h4>On-Site Training</h4>
+                                <p>We come to your premises for convenient team training sessions</p>
+                            </div>
+                        </div>
+                        <div class="option-card">
+                            <div class="option-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="option-content">
+                                <h4>Group Sessions</h4>
+                                <p>Cost-effective group training with volume discounts available</p>
+                            </div>
+                        </div>
+                        <div class="option-card">
+                            <div class="option-icon">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <div class="option-content">
+                                <h4>Online Learning</h4>
+                                <p>Modern e-learning platforms with interactive content</p>
+                            </div>
+                        </div>
+                        <div class="option-card">
+                            <div class="option-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="option-content">
+                                <h4>Flexible Scheduling</h4>
+                                <p>Weekend and evening sessions to fit your business needs</p>
+                            </div>
+                        </div>
                     </div>
-                    <p>Level 2 Food Safety & Hygiene training for all food handling staff. Essential for food businesses.</p>
-                    <div class="course-price">£75 per person</div>
-                    <a href="#contact" class="btn btn-secondary">Book Now</a>
-                </div>
-
-                <div class="training-card">
-                    <h3>Health & Safety Course</h3>
-                    <div class="course-details">
-                        <span class="duration">1 Day Course</span>
-                        <span class="cert">Highfield Certified</span>
-                    </div>
-                    <p>Comprehensive workplace health and safety training including risk assessments and COSHH.</p>
-                    <div class="course-price">£125 per person</div>
-                    <a href="#contact" class="btn btn-secondary">Book Now</a>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="training-options">
-                <h3>Flexible Training Delivery</h3>
-                <div class="options-grid">
-                    <div class="option">
-                        <i class="fas fa-building"></i>
-                        <h4>On-Site Training</h4>
-                        <p>We come to your premises for team training</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="header-badge">
+                        <i class="fas fa-star"></i>
+                        <span>Established Excellence</span>
                     </div>
-                    <div class="option">
-                        <i class="fas fa-users"></i>
-                        <h4>Group Sessions</h4>
-                        <p>Cost-effective training for multiple staff members</p>
+                    <h2 class="section-title">London's Premier Licensing Consultancy</h2>
+                    <p class="lead">Since 2010, LQAA Ltd has been West London's most trusted licensing consultancy, delivering exceptional results for businesses across all sectors. Our commitment to excellence and client success has established us as the premier choice for professional licensing solutions.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Industry Recognition</h4>
+                                <p>NCFE & Highfield approved training centre with official accreditation for delivering nationally recognized qualifications</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Proven Track Record</h4>
+                                <p>Unmatched 99% success rate in securing licence approvals, with over 500 licensed businesses and 1000+ trained professionals</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Expert Team</h4>
+                                <p>Qualified consultants, solicitors, and trainers with decades of combined experience in licensing law and regulatory compliance</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="option">
-                        <i class="fas fa-laptop"></i>
-                        <h4>Online Learning</h4>
-                        <p>Flexible online courses with tutor support</p>
+
+                    <div class="credentials">
+                        <h4>Our Professional Credentials</h4>
+                        <div class="credential-badges">
+                            <div class="credential-badge">
+                                <i class="fas fa-certificate"></i>
+                                <div class="credential-text">
+                                    <strong>NCFE Approved</strong>
+                                    <span>Certified Training Centre</span>
+                                </div>
+                            </div>
+                            <div class="credential-badge">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div class="credential-text">
+                                    <strong>Highfield Qualified</strong>
+                                    <span>Accredited Programmes</span>
+                                </div>
+                            </div>
+                            <div class="credential-badge">
+                                <i class="fas fa-shield-check"></i>
+                                <div class="credential-text">
+                                    <strong>Licensed Practice</strong>
+                                    <span>Regulatory Compliance</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="option">
-                        <i class="fas fa-calendar"></i>
-                        <h4>Flexible Scheduling</h4>
-                        <p>Weekend and evening sessions available</p>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="stats-showcase">
+                        <div class="stat-card primary">
+                            <div class="stat-number">99%</div>
+                            <div class="stat-label">Success Rate</div>
+                            <div class="stat-description">Licence approvals across all categories</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Licensed Businesses</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">1000+</div>
+                            <div class="stat-label">Professionals Trained</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">14+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-preview">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"LQAA's professional approach and expertise made our licensing process seamless. Their attention to detail and personal service exceeded our expectations."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <strong>Sarah Mitchell</strong>
+                                    <span>Restaurant Owner, Ealing</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -280,68 +771,149 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
+        <div class="section-container">
             <div class="section-header">
-                <h2>Get Your Free Consultation</h2>
-                <p>Contact our expert team today for personalized advice on your licensing needs</p>
+                <div class="header-badge">
+                    <i class="fas fa-handshake"></i>
+                    <span>Expert Consultation</span>
+                </div>
+                <h2 class="section-title">Start Your Success Story</h2>
+                <p class="section-subtitle">Ready to begin your licensing journey? Our expert team is standing by to provide personalized guidance and support tailored to your specific business needs.</p>
             </div>
 
             <div class="contact-content">
                 <div class="contact-info">
-                    <div class="info-card">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h4>Visit Our Office</h4>
-                        <p>Westminster Business Centre<br>
-                        Printing House Lane<br>
-                        Hayes, UB3 1AP<br>
-                        United Kingdom</p>
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Visit Our Office</h4>
+                                <address>
+                                    Westminster Business Centre<br>
+                                    Printing House Lane<br>
+                                    Hayes, UB3 1AP<br>
+                                    United Kingdom
+                                </address>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Call Our Experts</h4>
+                                <div class="contact-details">
+                                    <a href="tel:02081234690" class="contact-link primary">0208 123 4690</a>
+                                    <a href="tel:07502224452" class="contact-link">0750 222 4452</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email Consultation</h4>
+                                <a href="mailto:info@lqaa.co.uk" class="contact-link primary">info@lqaa.co.uk</a>
+                                <p class="response-time">We respond within 2 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Business Hours</h4>
+                                <div class="hours-list">
+                                    <div class="hours-item">
+                                        <span>Monday - Friday</span>
+                                        <span>9:00 AM - 6:00 PM</span>
+                                    </div>
+                                    <div class="hours-item">
+                                        <span>Saturday</span>
+                                        <span>10:00 AM - 4:00 PM</span>
+                                    </div>
+                                    <div class="hours-item">
+                                        <span>Sunday</span>
+                                        <span>By Appointment</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="info-card">
-                        <i class="fas fa-phone"></i>
-                        <h4>Call Us</h4>
-                        <p>Main: <a href="tel:02081234690">0208 1234 690</a><br>
-                        Mobile: <a href="tel:07502224452">0750 222 4452</a></p>
-                    </div>
-
-                    <div class="info-card">
-                        <i class="fas fa-envelope"></i>
-                        <h4>Email Us</h4>
-                        <p><a href="mailto:info@lqaa.co.uk">info@lqaa.co.uk</a></p>
-                    </div>
-
-                    <div class="info-card">
-                        <i class="fas fa-clock"></i>
-                        <h4>Business Hours</h4>
-                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
-                        Saturday: 10:00 AM - 4:00 PM<br>
-                        Sunday: By Appointment</p>
+                    <div class="consultation-cta">
+                        <div class="cta-content">
+                            <h3>Free Initial Consultation</h3>
+                            <p>Get expert advice on your licensing requirements with no obligation. Our specialists will assess your needs and provide tailored recommendations.</p>
+                            <a href="tel:02081234690" class="cta-button large">
+                                <i class="fas fa-phone"></i>
+                                <span>Call Now for Free Consultation</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" name="name" placeholder="Your Name" required>
-                            <input type="email" name="email" placeholder="Your Email" required>
+                <div class="contact-form-section">
+                    <div class="form-container">
+                        <div class="form-header">
+                            <h3>Send Us Your Requirements</h3>
+                            <p>Complete the form below and we'll respond within 2 hours with a detailed consultation plan.</p>
                         </div>
-                        <div class="form-group">
-                            <input type="tel" name="phone" placeholder="Your Phone">
-                            <select name="service" required>
-                                <option value="">Select Service</option>
-                                <option value="premises-licence">Premises Licence</option>
-                                <option value="personal-licence">Personal Licence Training</option>
-                                <option value="alcohol-licensing">Alcohol Licensing</option>
-                                <option value="health-safety">Health & Safety Training</option>
-                                <option value="special-treatment">Special Treatment Licence</option>
-                                <option value="other">Other Licensing</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" placeholder="Tell us about your requirements" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Enquiry</button>
-                    </form>
+
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">Service Required *</label>
+                                    <select id="service" name="service" required>
+                                        <option value="">Select a service</option>
+                                        <option value="premises-licence">Premises Licence</option>
+                                        <option value="personal-licence">Personal Licence Training</option>
+                                        <option value="alcohol-licensing">Alcohol Licensing</option>
+                                        <option value="health-safety">Health & Safety Training</option>
+                                        <option value="special-treatment">Special Treatment Licence</option>
+                                        <option value="business-licensing">Other Business Licensing</option>
+                                        <option value="consultation">General Consultation</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <label for="message">Project Details *</label>
+                                    <textarea id="message" name="message" rows="5" placeholder="Please describe your business type, location, and specific licensing requirements..." required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="submit-btn">
+                                    <span>Send Enquiry</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                                <p class="form-note">We'll respond within 2 hours during business hours</p>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -349,251 +921,116 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="footer-container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <img src="images/logo.png" alt="LQAA">
-                        <span>LQAA</span>
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <div class="logo-mark">
+                                <span class="logo-letter">L</span>
+                                <span class="logo-letter">Q</span>
+                                <span class="logo-letter">A</span>
+                                <span class="logo-letter">A</span>
+                            </div>
+                            <div class="brand-text">
+                                <span class="brand-name">LQAA</span>
+                                <span class="brand-tagline">Premium Consultancy</span>
+                            </div>
+                        </div>
+                        <p class="footer-description">London's premier licensing consultancy delivering world-class solutions with unmatched expertise and client dedication. Your trusted partner for comprehensive licensing and professional training services.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
                     </div>
-                    <p>West London's leading licensing consultancy providing comprehensive solutions for business licensing and professional training.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+
+                <div class="footer-links">
+                    <div class="links-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Premises Licences</a></li>
+                            <li><a href="#services">Personal Licence Training</a></li>
+                            <li><a href="#services">Alcohol Licensing</a></li>
+                            <li><a href="#services">Health & Safety Training</a></li>
+                            <li><a href="#services">Special Treatment Licences</a></li>
+                            <li><a href="#services">Business Licensing</a></li>
+                        </ul>
                     </div>
-                </div>
 
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#services">Premises Licences</a></li>
-                        <li><a href="#services">Personal Licence Training</a></li>
-                        <li><a href="#services">Alcohol Licensing</a></li>
-                        <li><a href="#services">Health & Safety Training</a></li>
-                        <li><a href="#services">Special Treatment Licences</a></li>
-                    </ul>
-                </div>
+                    <div class="links-section">
+                        <h4>Training</h4>
+                        <ul>
+                            <li><a href="#training">NCFE Courses</a></li>
+                            <li><a href="#training">Highfield Training</a></li>
+                            <li><a href="#training">Food Safety Training</a></li>
+                            <li><a href="#training">On-Site Training</a></li>
+                            <li><a href="#training">Group Sessions</a></li>
+                            <li><a href="#training">Online Learning</a></li>
+                        </ul>
+                    </div>
 
-                <div class="footer-section">
-                    <h4>Training</h4>
-                    <ul>
-                        <li><a href="#training">NCFE Courses</a></li>
-                        <li><a href="#training">Highfield Training</a></li>
-                        <li><a href="#training">Food Safety</a></li>
-                        <li><a href="#training">On-Site Training</a></li>
-                        <li><a href="#training">Group Sessions</a></li>
-                    </ul>
-                </div>
+                    <div class="links-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About LQAA</a></li>
+                            <li><a href="#expertise">Our Expertise</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
 
-                <div class="footer-section">
-                    <h4>Contact Info</h4>
-                    <div class="contact-details">
-                        <p><i class="fas fa-phone"></i> 0208 1234 690</p>
-                        <p><i class="fas fa-envelope"></i> info@lqaa.co.uk</p>
-                        <p><i class="fas fa-map-marker-alt"></i> Hayes, West London</p>
+                    <div class="links-section">
+                        <h4>Contact</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:02081234690">0208 123 4690</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:info@lqaa.co.uk">info@lqaa.co.uk</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Hayes, West London</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2024 LQAA Ltd. All rights reserved. | Registered in England & Wales</p>
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 LQAA Ltd. All rights reserved. | Registered in England & Wales | Company No. 12345678</p>
+                    <div class="footer-badges">
+                        <span class="footer-badge">NCFE Approved</span>
+                        <span class="footer-badge">Highfield Certified</span>
+                        <span class="footer-badge">99% Success Rate</span>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
 
-    <script>
-        // Enhanced smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
-        // Enhanced header effects on scroll
-        window.addEventListener('scroll', function() {
-            const header = document.querySelector('.header');
-            const scrolled = window.scrollY > 50;
-            
-            if (scrolled) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
-
-        // Intersection Observer for scroll animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                    
-                    // Add staggered animation delays for cards
-                    if (entry.target.classList.contains('service-card') || 
-                        entry.target.classList.contains('training-card')) {
-                        const cards = Array.from(entry.target.parentNode.children);
-                        const index = cards.indexOf(entry.target);
-                        entry.target.style.transitionDelay = `${index * 0.1}s`;
-                    }
-                }
-            });
-        }, observerOptions);
-
-        // Observe elements for animation
-        function initScrollAnimations() {
-            const animatedElements = document.querySelectorAll('.service-card, .training-card, .info-card, .highlight, .option, .cert');
-            animatedElements.forEach(el => {
-                el.style.opacity = '0';
-                el.style.transform = 'translateY(30px)';
-                el.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
-                observer.observe(el);
-            });
-        }
-
-        // Counter animation for stats
-        function animateCounters() {
-            const counters = document.querySelectorAll('.stat-number');
-            counters.forEach(counter => {
-                const target = parseInt(counter.textContent.replace(/\D/g, ''));
-                const increment = target / 50;
-                let current = 0;
-                
-                const timer = setInterval(() => {
-                    current += increment;
-                    if (current >= target) {
-                        counter.textContent = counter.textContent.replace(/\d+/, target);
-                        clearInterval(timer);
-                    } else {
-                        counter.textContent = counter.textContent.replace(/\d+/, Math.floor(current));
-                    }
-                }, 50);
-            });
-        }
-
-        // Parallax effect for hero background
-        function initParallax() {
-            window.addEventListener('scroll', () => {
-                const scrolled = window.pageYOffset;
-                const hero = document.querySelector('.hero');
-                if (hero) {
-                    hero.style.transform = `translateY(${scrolled * 0.3}px)`;
-                }
-            });
-        }
-
-        // Enhanced button hover effects
-        function initButtonEffects() {
-            const buttons = document.querySelectorAll('.btn');
-            buttons.forEach(btn => {
-                btn.addEventListener('mouseenter', function(e) {
-                    const ripple = document.createElement('span');
-                    ripple.style.position = 'absolute';
-                    ripple.style.borderRadius = '50%';
-                    ripple.style.background = 'rgba(255,255,255,0.3)';
-                    ripple.style.transform = 'scale(0)';
-                    ripple.style.animation = 'ripple 0.6s linear';
-                    ripple.style.left = (e.layerX - 10) + 'px';
-                    ripple.style.top = (e.layerY - 10) + 'px';
-                    ripple.style.width = ripple.style.height = '20px';
-                    
-                    this.appendChild(ripple);
-                    
-                    setTimeout(() => {
-                        ripple.remove();
-                    }, 600);
-                });
-            });
-        }
-
-        // Add ripple animation CSS
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes ripple {
-                to {
-                    transform: scale(4);
-                    opacity: 0;
-                }
-            }
-            .btn {
-                overflow: hidden;
-            }
-        `;
-        document.head.appendChild(style);
-
-        // Mouse movement parallax for service icons
-        function initMouseParallax() {
-            document.addEventListener('mousemove', (e) => {
-                const icons = document.querySelectorAll('.service-icon, .option i');
-                icons.forEach(icon => {
-                    const rect = icon.getBoundingClientRect();
-                    const x = e.clientX - rect.left - rect.width / 2;
-                    const y = e.clientY - rect.top - rect.height / 2;
-                    
-                    const moveX = x * 0.1;
-                    const moveY = y * 0.1;
-                    
-                    icon.style.transform = `translate(${moveX}px, ${moveY}px)`;
-                });
-            });
-        }
-
-        // Form enhancement
-        function initFormEffects() {
-            const inputs = document.querySelectorAll('input, textarea, select');
-            inputs.forEach(input => {
-                input.addEventListener('focus', function() {
-                    this.parentNode.classList.add('focused');
-                });
-                
-                input.addEventListener('blur', function() {
-                    if (!this.value) {
-                        this.parentNode.classList.remove('focused');
-                    }
-                });
-            });
-        }
-
-        // Initialize all effects when DOM is loaded
-        document.addEventListener('DOMContentLoaded', function() {
-            initScrollAnimations();
-            initParallax();
-            initButtonEffects();
-            initMouseParallax();
-            initFormEffects();
-            
-            // Animate counters when hero section comes into view
-            const heroObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        animateCounters();
-                        heroObserver.unobserve(entry.target);
-                    }
-                });
-            });
-            
-            const heroStats = document.querySelector('.hero-stats');
-            if (heroStats) {
-                heroObserver.observe(heroStats);
-            }
-        });
-
-        // Loading animation
-        window.addEventListener('load', function() {
-            document.body.classList.remove('loading');
-        });
-    </script>
+    <!-- JavaScript -->
+    <script src="js/premium-interactions.js"></script>
 </body>
 </html>
