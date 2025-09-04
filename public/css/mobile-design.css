@@ -433,6 +433,25 @@ section {
   color: var(--primary-gold);
 }
 
+.contact-pricing {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-blue);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.08) 0%, rgba(245, 158, 11, 0.08) 100%);
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.contact-pricing:hover {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.12) 0%, rgba(245, 158, 11, 0.12) 100%);
+  border-color: var(--primary-blue);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+}
+
 .training-card h3 {
   font-size: 1.125rem;
   font-weight: 600;
