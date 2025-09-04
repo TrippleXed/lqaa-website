@@ -1,0 +1,17 @@
+{
+  "name": "lqaa-website",
+  "version": "1.0.0",
+  "description": "LQAA Premium Licensing Consultancy Website",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {},
+  "keywords": ["licensing", "consultancy", "vercel", "nodejs"],
+  "author": "LQAA Ltd",
+  "license": "MIT"
+}
